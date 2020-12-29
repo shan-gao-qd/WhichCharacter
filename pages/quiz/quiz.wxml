@@ -1,0 +1,5 @@
+
+<view>
+<!-- wx:for="{{questions}}" id="{{questions.id}}" wx:for-item="questions" wx:key="id" -->
+<text>{{question.question}}</text>
+</view>

@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/quiz/quiz",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,6 +9,12 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
+  },
+  "plugins": {
+    "sdkPlugin": {
+      "version": "3.15.1",
+      "provider": "wxc6b86e382a1e3294"
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

@@ -1,0 +1,13 @@
+{
+  "data": [
+      {  
+          "name": "知晓妹", 
+          "age": 18, 
+          "account": 300.0, 
+          "time": "2017-09-01T10:54:01.500Z",
+          "colors": ["red", "blue"], 
+          "is_paid": true,
+          "geopoint": {"type": "Point", "coordinates": [0, 0]}
+      }
+  ]
+}
