@@ -7,5 +7,8 @@
        wx.requestPayment)
       let clientID = '3cf86e5de040902096c7'  
       wx.BaaS.init(clientID)
+    },
+    globalData: {
+      questions:null
     }
   })

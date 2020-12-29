@@ -1,5 +1,8 @@
 
-<view>
-<!-- wx:for="{{questions}}" id="{{questions.id}}" wx:for-item="questions" wx:key="id" -->
-<text>{{question.question}}</text>
+<view class="container">
+<!-- <image></image>
+<text></text> -->
+<text class="question">{{question.question}}</text>
+<slider class="slider" bindchange="sliderchange" min="1" max="5" show-value/>
+<button class="next">Next</button>
 </view>
